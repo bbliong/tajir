@@ -1,0 +1,104 @@
+{
+    "count" : 145,
+    "result": [
+        {
+            "id": 1,
+            "name": "Kurta Samase - Blue Denim",
+            "price": 150000,
+            "cross_price": 200000,
+            "discount": "",
+            "url_image": "/images/items/1.png",
+            "star": 1,
+            "category": "Man",
+            "slug": "kurta-samase-blue-denim-cvc-yarnded"
+        },
+        {
+            "id": 2,
+            "name": "French Khimar - Aljena",
+            "price": 200000,
+            "cross_price": 250000,
+            "discount": "24",
+            "url_image": "/images/items/2.png",
+            "star": 5,
+            "category": "Man",
+            "slug": "kurta-samase-blue-denim-cvc-yarnded"
+        },
+        {
+            "id": 2,
+            "name": "FS - Nike Air Max 270 ",
+            "price": 300000,
+            "cross_price": 400000,
+            "discount": "24",
+            "url_image": "/images/items/3.png",
+            "star": 5,
+            "category": "Man",
+            "slug": "kurta-samase-blue-denim-cvc-yarnded"
+        },
+        {
+            "id": 1,
+            "name": "Kurta Samase - Blue Denim",
+            "price": 150000,
+            "cross_price": 200000,
+            "discount": "24",
+            "url_image": "/images/items/1.png",
+            "star": 5,
+            "category": "Man",
+            "slug": "kurta-samase-blue-denim-cvc-yarnded"
+        },
+        {
+            "id": 2,
+            "name": "French Khimar - Aljena",
+            "price": 200000,
+            "cross_price": 250000,
+            "discount": "24",
+            "url_image": "/images/items/2.png",
+            "star": 5,
+            "category": "Man",
+            "slug": "kurta-samase-blue-denim-cvc-yarnded"
+        },
+        {
+            "id": 2,
+            "name": "FS - Nike Air Max 270 ",
+            "price": 300000,
+            "cross_price": 400000,
+            "discount": "24",
+            "url_image": "/images/items/3.png",
+            "star": 5,
+            "category": "Man",
+            "slug": "kurta-samase-blue-denim-cvc-yarnded"
+        },
+        {
+            "id": 1,
+            "name": "Kurta Samase - Blue Denim",
+            "price": 150000,
+            "cross_price": 200000,
+            "discount": "24",
+            "url_image": "/images/items/1.png",
+            "star": 5,
+            "category": "Man",
+            "slug": "kurta-samase-blue-denim-cvc-yarnded"
+        },
+        {
+            "id": 2,
+            "name": "French Khimar - Aljena",
+            "price": 200000,
+            "cross_price": 250000,
+            "discount": "24",
+            "url_image": "/images/items/2.png",
+            "star": 5,
+            "category": "Man",
+            "slug": "kurta-samase-blue-denim-cvc-yarnded"
+        },
+        {
+            "id": 2,
+            "name": "FS - Nike Air Max 270 ",
+            "price": 300000,
+            "cross_price": 400000,
+            "discount": "24",
+            "url_image": "/images/items/3.png",
+            "star": 5,
+            "category": "Man",
+            "slug": "kurta-samase-blue-denim-cvc-yarnded"
+        }
+    ]
+}

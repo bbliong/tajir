@@ -303,8 +303,8 @@ button {
   border-radius: 0;
 }
 
-// Work around a Firefox/IE bug where the transparent `button` background
-// results in a loss of the default `button` focus styles.
+// Work around a Firefox/IE bug where the transparent `Button` background
+// results in a loss of the default `Button` focus styles.
 //
 // Credit: https://github.com/suitcss/base/
 button:focus {
@@ -333,7 +333,7 @@ select {
   text-transform: none; // Remove the inheritance of text transform in Firefox
 }
 
-// Set the cursor for non-`<button>` buttons
+// Set the cursor for non-`<Button>` buttons
 //
 // Details at https://github.com/twbs/bootstrap/pull/30562
 [role="button"] {
@@ -358,7 +358,7 @@ button,
   -webkit-appearance: button; // 2
 }
 
-// Opinionated: add "hand" cursor to non-disabled button elements.
+// Opinionated: add "hand" cursor to non-disabled Button elements.
 @if $enable-pointer-cursor-for-buttons {
   button,
   [type="button"],

@@ -1,0 +1,12 @@
+{
+  "user_id" : 1,
+  "first_name" : "Aria",
+  "last_name" : "Samudera",
+  "gender" : "Laki-laki",
+  "place_of_birth" : "Medan",
+  "birth" : "2000-10-21T00:00:00.000Z",
+  "email" : "ariaelhamidy@gmail.com",
+  "phone_number" : "089634555083",
+  "profile_url_image" : "/images/testimonial/testimonial_3.png",
+  "created_at" : "2000-10-21T00:00:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+  "user_id": 5,
+  "addresses": [
+    {
+      "country": "Indonesia",
+      "first_name_receiver": "Aria",
+      "last_name_receiver" : "samudera",
+      "address" : "Perumahan taman melati blok fa 39",
+      "another_address" : "",
+      "city" : "depok",
+      "province" : "jawa barat",
+      "postal_code" : "16517 ",
+      "phone_number" : "089634555083"
+    }
+  ]
+}

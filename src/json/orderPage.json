@@ -1,0 +1,55 @@
+{
+    "name" : "Aria Samudera",
+    "user_id" : 1,
+    "orders" : [
+        {
+            "ref_code" : "LQNSU346JK",
+            "order_at" : "2000-10-21T00:00:00.000Z",
+            "total_price" : 140000,
+            "order_status" : "SHIPPING",
+            "items" : [
+                {
+                    "id": 1,
+                    "name": "Kurta Samase - Blue Denim",
+                    "price": 150000,
+                    "cross_price": 200000,
+                    "discount": "24",
+                    "url_image": "/images/items/6.png",
+                    "star": 5,
+                    "category": "Man",
+                    "slug": "kurta-samase-blue-denim-cvc-yarnded"
+                  },
+                  {
+                    "id": 2,
+                    "name": "French Khimar - Aljena",
+                    "price": 200000,
+                    "cross_price": 250000,
+                    "discount": "24",
+                    "url_image": "/images/items/7.png",
+                    "star": 5,
+                    "category": "Man",
+                    "slug": "kurta-samase-blue-denim-cvc-yarnded"
+                  }
+            ]
+        },
+        {
+            "ref_code" : "SDG1345KJD",
+            "order_at" : "2000-10-21T00:00:00.000Z",
+            "total_price" : 150000,
+            "order_status" : "SHIPPING",
+            "items" : [
+                {
+                    "id": 1,
+                    "name": "Kurta Samase - Blue Denim",
+                    "price": 150000,
+                    "cross_price": 200000,
+                    "discount": "24",
+                    "url_image": "/images/items/6.png",
+                    "star": 5,
+                    "category": "Man",
+                    "slug": "kurta-samase-blue-denim-cvc-yarnded"
+                  }
+            ]
+        }
+    ] 
+}

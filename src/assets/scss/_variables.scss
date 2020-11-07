@@ -34,14 +34,14 @@ $grays: map-merge(
   $grays
 );
 
-$blue:    #007bff !default;
-$indigo:  #3252DF !default;
+$blue:    #40BFFF !default;
+$indigo:  #223263 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #28a745 !default;
+$red:     #FB7181 !default;
+$orange:  #ED5633 !default;
+$yellow:  #FFC833 !default;
+$green:   #53D1B6 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
@@ -66,7 +66,7 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $indigo !default;
+$primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -446,7 +446,7 @@ $btn-link-disabled-color:     $gray-600 !default;
 
 $btn-block-spacing-y:         .5rem !default;
 
-// Allows for customizing button radius independently from global border radius
+// Allows for customizing Button radius independently from global border radius
 $btn-border-radius:           $border-radius !default;
 $btn-border-radius-lg:        $border-radius-lg !default;
 $btn-border-radius-sm:        $border-radius-sm !default;
@@ -1145,3 +1145,31 @@ $user-selects: all, auto, none !default;
 
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+//bootstrap steps
+
+$step-gutter: 1rem !default;
+$step-content-width: 5rem !default;
+$step-content-padding-top: .5rem !default;
+$step-circle-size: 1.5rem !default;
+$step-circle-border-width: 2px !default;
+
+$step-default-circle-color: $gray-500 !default;
+$step-default-circle-bg-color: $white !default;
+$step-default-circle-border-color: $gray-500 !default;
+$step-default-text-color: $gray-500 !default;
+
+$step-active-circle-color: $primary !default;
+$step-active-circle-bg-color: $white !default;
+$step-active-circle-border-color: $primary !default;
+$step-active-text-color: $primary !default;
+
+$step-error-circle-color: $white !default;
+$step-error-circle-bg-color: $danger !default;
+$step-error-circle-border-color: $danger !default;
+$step-error-text-color: $danger !default;
+
+$step-success-circle-color: $primary !default;
+$step-success-circle-bg-color: $white !default;
+$step-success-circle-border-color: $primary !default;
+$step-success-text-color: $primary !default;

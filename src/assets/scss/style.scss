@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -42,25 +43,32 @@
 @import "spinners";
 @import "utilities";
 @import "print";
-
+@import "bootstrap-steps";
 
 .brand-text-icon {
     font-size: 20px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: $primary;
+
     &:hover {
         text-decoration: none;
     }
 }
 
-header { 
-    border-bottom : 1px solid $gray-200;
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header {
     width: 100%;
     position: relative;
-    margin-bottom:  70px;
+
     .navbar {
-        height: 80px;
+        height: 60px;
 
         .navbar-nav {
             li.nav-item {
@@ -70,18 +78,220 @@ header {
                         color: $gray-900;
                         padding-left: 1rem;
                         padding-right: 1rem;
-                        &:hover{
+
+                        &:hover {
                             text-decoration: underline;
                         }
                     }
                 }
+
+                span {
+                    font-size: 14px !important;
+                }
+
                 &.active {
                     a {
                         color: $primary;
                         font-weight: 500;
                     }
                 }
+
+                &.active {
+                    span {
+                        color: $primary !important;
+                    }
+                }
             }
         }
     }
+
+}
+
+.carousel-img {
+    width: 100vw;
+    height : 200px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.container-fluid {
+    .carousel-img {
+        border-radius : 10px;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .navbar-brand{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@include media-breakpoint-up(md) {
+    header {
+        margin-bottom: 10px;
+    }
+    
+    .carousel-img {
+        width: 100vw;
+        height: 400px;
+    }
+
+}
+
+.card {
+    border : 1px solid white;
+}
+
+// Text Styling
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-large,
+.text-medium,
+.text,
+.text-caption-large,
+.text-caption-medium,
+.text-link-large,
+.text-caption-medium {
+    word-spacing: 0.5px;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.text-large {
+    font-size: 16px;
+}
+
+.text-medium {
+    font-size: 14px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.text-caption-large {
+    font-size: 14px;
+}
+
+.text-caption-medium {
+    font-size: 12px;
+}
+
+.text-link-large {
+    font-size: 12px;
+}
+
+.text-link-medium {
+    font-size: 12px;
+}
+
+
+// SWIPER
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.img-profile {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.testimonial {
+    .container-fluid {
+        .row {
+            .col-12 {
+                .img-testimonial{
+                    width: 70px;
+                    height : 70px;
+                    margin-right : 20px;
+                }
+            }
+        }
+    }
+}
+
+.testimonial-star  {
+    width : 200px;
+}
+
+.step-success{
+    .step-circle {
+        background: $primary;
+        &::after {
+            content: url('data:image/svg+xml;utf8,<svg width="13" height="13" viewBox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.62961 8.52668L7.82252 17.2306C8.46805 18.3126 9.94113 18.5354 10.8778 17.6927L27.1842 3.02177" stroke="white" stroke-width="4" stroke-linecap="round"/></svg>');
+            color: #fff;
+            position: absolute;
+            left: 4px;
+            right: 0;
+            margin: 0 auto;
+            top: 0;
+            display: block;
+        }
+    }
+}
+
+
+// PROFILE
+
+.icon-profile {
+    width: 30px;
+}
+
+.border-blue {
+    border : 2px solid $primary;
+    border-radius : 5px;
+    padding : 24px;
 }

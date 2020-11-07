@@ -1,0 +1,41 @@
+@import "../../assets/scss/colorVariables";
+@import 'swiper/swiper.scss';
+@import 'swiper/components/navigation/navigation.scss';
+@import 'swiper/components/pagination/pagination.scss';
+@import 'swiper/components/scrollbar/scrollbar.scss';
+
+
+.stars {
+  position: relative;
+  min-width: 100px;
+  display: inline-flex;
+  .star {
+    position: absolute;
+    display: inline-flex;
+    mask: url(../../assets/images/icons/star4.svg) no-repeat center left;
+    &:not(.placeholder) {
+      z-index: 2;
+
+      background-color: $yellow;
+    }
+    &.placeholder {
+      z-index: 1;
+      background-color: $gray-200;
+    }
+  }
+
+  .bigStar {
+    position: absolute;
+    display: inline-flex;
+    mask: url(../../assets/images/icons/star2.svg) no-repeat center left;
+    &:not(.placeholder) {
+      z-index: 2;
+
+      background-color: $yellow;
+    }
+    &.placeholder {
+      z-index: 1;
+      background-color: $gray-200;
+    }
+  }
+}

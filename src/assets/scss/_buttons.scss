@@ -77,12 +77,19 @@ fieldset:disabled a.btn {
   }
 }
 
+@each $color, $value in $colors {
+  .btn-#{$color} {
+    @include button-variant($value, $value);
+  }
+}
+
+
 
 //
 // Link buttons
 //
 
-// Make a button look and behave like a link
+// Make a Button look and behave like a link
 .btn-link {
   font-weight: $font-weight-normal;
   color: $link-color;
@@ -122,7 +129,7 @@ fieldset:disabled a.btn {
 
 
 //
-// Block button
+// Block Button
 //
 
 .btn-block {

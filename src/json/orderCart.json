@@ -1,0 +1,45 @@
+{
+  "user_id": 5,
+  "total_price" : 40000,
+  "items": [
+    {
+      "id": 1,
+      "name": "Kurta Samase - Blue Denim",
+      "price": 150000,
+      "cross_price": 200000,
+      "discount": "24",
+      "url_image": "/images/items/6.png",
+      "star": 5,
+      "category": "Man",
+      "slug": "kurta-samase-blue-denim-cvc-yarnded"
+    },
+    {
+      "id": 2,
+      "name": "French Khimar - Aljena",
+      "price": 200000,
+      "cross_price": 250000,
+      "discount": "24",
+      "url_image": "/images/items/7.png",
+      "star": 5,
+      "category": "Man",
+      "slug": "kurta-samase-blue-denim-cvc-yarnded"
+    }
+  ],
+  "addresses": {
+    "id": 1,
+    "country": "Indonesia",
+    "first_name_receiver": "Aria",
+    "last_name_receiver": "samudera",
+    "address": "Perumahan taman melati blok fa 39",
+    "another_address": "",
+    "city": "depok",
+    "province": "jawa barat",
+    "postal_code": "16517 ",
+    "phone_number": "089634555083"
+  },
+  "delivery" :  {
+    "courier" : "JNE - YES",
+    "price" : 20000,
+    "assurance" : 0
+  }
+}

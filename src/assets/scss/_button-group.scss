@@ -1,6 +1,6 @@
 // stylelint-disable selector-no-qualifying-type
 
-// Make the div behave like a button
+// Make the div behave like a Button
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -24,7 +24,7 @@
   }
 }
 
-// Optional: Group multiple button groups together for a toolbar
+// Optional: Group multiple Button groups together for a toolbar
 .btn-toolbar {
   display: flex;
   flex-wrap: wrap;
@@ -56,14 +56,14 @@
 
 // Sizing
 //
-// Remix the default button sizing classes into new ones for easier manipulation.
+// Remix the default Button sizing classes into new ones for easier manipulation.
 
 .btn-group-sm > .btn { @extend .btn-sm; }
 .btn-group-lg > .btn { @extend .btn-lg; }
 
 
 //
-// Split button dropdowns
+// Split Button dropdowns
 //
 
 .dropdown-toggle-split {
@@ -92,12 +92,12 @@
 }
 
 
-// The clickable button for toggling the menu
+// The clickable Button for toggling the menu
 // Set the same inset shadow as the :active state
 .btn-group.show .dropdown-toggle {
   @include box-shadow($btn-active-box-shadow);
 
-  // Show no shadow for `.btn-link` since it has no other button styles.
+  // Show no shadow for `.btn-link` since it has no other Button styles.
   &.btn-link {
     @include box-shadow(none);
   }
@@ -105,7 +105,7 @@
 
 
 //
-// Vertical button groups
+// Vertical Button groups
 //
 
 .btn-group-vertical {
